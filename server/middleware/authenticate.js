@@ -16,8 +16,4 @@ var authenticate = (req, res, next) => {
 	});	
 };
 
-app.get('/users/me', authenticate, (req, res) => {
-	res.send(req.user);
-});
-
 module.exports = {authenticate};
