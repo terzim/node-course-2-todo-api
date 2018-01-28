@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 const {ObjectID} = require('mongodb');
 const jwt = require('jsonwebtoken');
 
